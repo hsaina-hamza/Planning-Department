@@ -1,0 +1,40 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.top-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#logo {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.link-primary {
+  color: #007bff;
+}
+
+.link-primary:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    padding: 20px;
+  }
+  .form-control {
+    font-size: 0.9rem;
+  }
+}
